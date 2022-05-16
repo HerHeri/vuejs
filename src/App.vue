@@ -1,18 +1,20 @@
 <template>
-  <v-app>
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app>
+  <div>
+    <router-view/>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue'
 
-export default {
-  name: 'App',
-
-  data: () => ({
-    //
-  }),
-};
+export default ({
+  components: {
+    Footer
+  }
+})
 </script>
+
+<style lang="scss">
+
+</style>
