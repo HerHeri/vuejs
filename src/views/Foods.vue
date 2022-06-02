@@ -1,5 +1,9 @@
 <template>
 <div>
+  <vue-headful
+        title="Kulineran App"
+        description="Kulineran App for Web"
+    />
   <navbar />
   <div class="container">
     <div class="row mt-3">
@@ -63,14 +67,14 @@ export default {
         .then((response) => this.setProduct(response.data))
         .catch((error) => console.log('Error:', error))
 
-      axios.post('http://pretest-qa.dcidev.id/api/v1/register', {
-          phone: "08080",
-          country: "inputCountry",
-          password: "inputPass",
-          latlong: "-",
-          device_token: "2",
-          device_type: "2" // sementara web
-      })
+      // axios.post('http://pretest-qa.dcidev.id/api/v1/register', {
+      //     phone: "08080",
+      //     country: "inputCountry",
+      //     password: "inputPass",
+      //     latlong: "-",
+      //     device_token: "2",
+      //     device_type: "2" // sementara web
+      // })
       .then(function (response) {
           console.log(response);
       })

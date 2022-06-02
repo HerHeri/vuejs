@@ -1,5 +1,9 @@
 <template>
 <div>
+  <vue-headful
+        title="Kulineran Web App"
+        description="Kulineran App for Web"
+    />
   <navbar />
   <div class="container">
     <Hero />

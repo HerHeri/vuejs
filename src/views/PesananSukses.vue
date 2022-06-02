@@ -1,5 +1,9 @@
 <template>
     <div class="pesanansukses">
+        <vue-headful
+            title="Kulineran App"
+            description="Kulineran App for Web"
+        />
         <Navbar />
         <div class="container">
             <div class="row justify-content-center mt-5">

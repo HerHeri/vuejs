@@ -1,5 +1,9 @@
 <template>
     <div class="keranjang">
+        <vue-headful
+            title="Kulineran App"
+            description="Kulineran App for Web"
+        />
         <Navbar :updateKeranjang="keranjangs" />
         <div class="container">
             <!-- Breadcrumb -->
