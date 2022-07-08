@@ -1,24 +1,11 @@
-# vue2-product
-
-## Project setup
-```
-npm install
-```
+# How To Use
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run the dbase.json
 ```
-npm run build
+json-server --watch dbase.json
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
